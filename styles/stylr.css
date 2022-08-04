@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  background: #faf7fd;
+}
+
+a {
+  text-decoration: none;
+  color: #bb99dd;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 120px;
+  background: #faf7fd;
+}
+
+.profile-pic {
+  padding: 10px;
+}
+.profile-pic img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  outline: 2px solid #bb99dd;
+  padding: 5px;
+}
+.profile-pic img:hover {
+  outline: 3px solid #bb99dd;
+  box-shadow: 5px 5px 10px #bb99dd;
+}
+.profile-pic p {
+  text-align: center;
+  line-height: 24px;
+}
+
+.links-list {
+  padding: 10px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 70px;
+}
+.links-list .link-item {
+  background: #faf7fd;
+  color: #bb99dd;
+  font-weight: bold;
+  border: 2px solid #bb99dd;
+  padding: 10px 130px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+.links-list .link-item:hover {
+  box-shadow: 3px 3px 5px #bb99dd;
+}
+.links-list .link-item:active {
+  transition: none;
+  background: #bb99dd;
+  color: #faf7fd;
+  box-shadow: 5px 5px 10px #bb99dd;
+}
+
+.social-medias {
+  display: flex;
+  gap: 30px;
+}
+.social-medias img:hover {
+  height: 28px;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-top: 150px;
+  }
+  .social-medias {
+    margin-top: 60px;
+  }
+} /*# sourceMappingURL=stylr.css.map */
